@@ -130,7 +130,7 @@ $(function() {
       subtitle: "Dyson",
       viewLink: "https://ekingdom94.github.io/project_HALO/",
       description: "다양한 연령대의 사용자에게 최적화된 가독성과 접근성을 제공하기 위해 ...",
-      techUsed: ["HTML/CSS"],
+      techUsed: ["HTML / CSS / JAVASCRIPT / JQUERY / GITHUB / FIGMA"],
       duration: "1개월",
       details: "LG SIGNATURE의 글로벌 페이지를 참고해 제작하였습니다. ...",
     },
@@ -145,7 +145,7 @@ $(function() {
     },
     {
       title: "Portfolio 03",
-      subtitle: "US Pet",
+      subtitle: "US,Pet",
       viewLink: "https://example.com/uspet",
       description: "반려동물용품 쇼핑몰 UI/UX 개선 프로젝트...",
       techUsed: ["HTML/CSS"],
@@ -154,7 +154,7 @@ $(function() {
     },
     {
       title: "Portfolio 04",
-      subtitle: "Coffee House",
+      subtitle: "Special tea Coffee Posion",
       viewLink: "https://example.com/coffee",
       description: "아늑한 분위기의 커피숍 웹페이지 제작...",
       techUsed: ["HTML/CSS"],
