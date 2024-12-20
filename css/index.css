@@ -444,6 +444,7 @@ body {
 /* Swiper Buttons */
 .swiper-button-next,
 .swiper-button-prev {
+  color: #333;
   position: absolute;
   top: 50%; /* 부모 컨테이너 기준 중앙 정렬 */
   transform: translateY(-50%);

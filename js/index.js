@@ -21,7 +21,6 @@ $(function() {
       $('#upimg').attr('src', 'img/icon/up2.png');
       $('#about2 ul li a').css('border', '1px dashed #fff');
       $('#portfolio').css('color','#fff')
-      $('tech-used').css('color','#fff')
       $('*').css('color', '#fff');
 
       $('#about2_1 ul li img, #contact2 ul li img').each(function() {
@@ -39,7 +38,6 @@ $(function() {
       $('#upimg').attr('src', 'img/icon/up.png');
       $('#about2 ul li a').css('border', '1px dashed #333');
       $('#portfolio').css('color','#333')
-      $('tech-used').css('color','#333')
       $('*').css('color', '#333');
 
       $('#about2_1 ul li img, #contact2 ul li img').each(function() {
@@ -50,6 +48,7 @@ $(function() {
       });
     }
   }
+
 
   // 다크모드 버튼 이벤트
   $('#theme-toggle').on('click', function() {
@@ -174,6 +173,9 @@ $(function() {
     fadeEffect: { crossFade: true },
     speed: 500,
   });
+
+
+
 // 포트폴리오 섹션 업데이트 함수
 function updatePortfolioSection(index) {
   const data = portfolioData[index];
@@ -196,6 +198,7 @@ function updatePortfolioSection(index) {
   });
 }
 
+
   
   // Swiper의 슬라이드 변경 이벤트 처리
   swiper.on('slideChange', function () {
@@ -207,6 +210,5 @@ function updatePortfolioSection(index) {
   updatePortfolioSection(0);
   
 
-  document.querySelector(".tech-used").textContent = data.techUsed; // 이 줄이 문제
 
 });
