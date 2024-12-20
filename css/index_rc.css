@@ -1,0 +1,450 @@
+@charset "utf-8";
+
+
+
+
+
+
+/* 1921px ~ 2560px --------------------------------------------------- */
+@media (min-width: 1921px) {
+  .grid-section {
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+
+  .grid-item {
+    /* 패딩 25 */
+    padding: 25px;
+  }
+}
+
+
+
+
+
+/* 1920px ~ 1441px--------------------------------------------------- */
+@media (max-width: 1920px) and (min-width: 1441px) {
+
+  .grid-section {
+    gap: 20px;
+  }
+}
+
+
+
+
+/* 1440px ~ 1024px--------------------------------------------------- */
+@media (max-width: 1440px) and (min-width: 1024px) {
+
+
+
+  .grid-section {
+    gap: 18px;
+  }
+
+  #about2_1 div {
+    font-size: 0.67rem;
+  }
+
+  #portfolio {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .portfolio_section1,
+  .portfolio_section2,
+  .portfolio_section3 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .portfolio_section2 img,
+  .portfolio_section3 img {
+    width: 90%;
+    padding: 10px;
+  
+}
+}
+
+
+
+
+/* 1023px ~ 768px--------------------------------------------------- */
+@media (max-width: 1023px) and (min-width: 768px) {
+  #header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    height: 68px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu ul li {
+    width: 100px;
+  }
+
+  .menu ul li a {
+    width: 20%;
+    display: block;
+    font-size: 1em;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  #Home {
+    height: 400px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #Home img {
+    width: 80%;
+    height: 80%;
+  }
+
+
+  .grid-section {
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+
+  #about2_1 ul li {
+    width: 50px;
+  }
+
+  #about2_1 ul li a {
+    display: inline-block;
+    /* 버튼처럼 보이도록 설정 */
+    padding: 8px 12px;
+    font-size: 0.5rem;
+    border: 1px dashed #333;
+    border-radius: 15px;
+    white-space: nowrap;
+  }
+
+  #about2_1 div {
+    font-size: 0.65rem;
+  }
+  #portfolio {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .portfolio_section1,
+  .portfolio_section2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .portfolio_section2 img {
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+  }
+
+  .portfolio_section1 .center-box {
+    font-size: 1.2rem;
+  }
+  .portfolio_section2 .text-box{
+    display: none;
+  }
+
+  #contact 
+  {
+    height: 70%;
+  }
+
+  footer p {
+    font-size: 0.8rem;
+
+  }
+}
+
+
+
+
+
+
+
+/* 767px ~ 425px  ---------------------------------------------------*/
+@media (max-width: 767px) and (min-width: 425px) {
+  #header {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  #Home {
+    height: 350px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #Home img {
+    width: 70%;
+    height: 70%;
+  }
+
+  #homescroll {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    right: 3px;
+  }
+
+  #homescroll a {
+    margin-top: 10px;
+  }
+
+
+
+  .grid-section {
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .grid-item {
+    padding: 15px;
+    height: auto;
+  }
+
+  #about {
+    display: block;
+    /* Flex 대신 블록 레이아웃으로 변경 */
+  }
+
+  #about1, #about2 {
+    width: 100%;
+    height: 50%;
+  }
+
+  #about1 img, #about2 img {
+    width: 50%;
+    height: auto;
+  }
+
+
+
+  #about2_1 ul li {
+    width: 40px;
+  }
+
+  #about2_1 ul li a {
+    display: inline-block;
+    /* 버튼처럼 보이도록 설정 */
+    padding: 5px 8px;
+    font-size: 0.3rem;
+    border: 1px dashed #333;
+    border-radius: 10px;
+    white-space: nowrap;
+  }
+
+  #about2_1 div {
+    font-size: 0.6rem;
+  }
+
+  #portfolio {
+    margin-top: 200px;
+    height: 50%;
+  }
+
+  .portfolio_section2 .text-box{
+    display: none;
+  }
+
+  #contact 
+  {
+    height: 50%;
+  }
+
+
+
+  footer {
+    display: none;
+  }
+}
+
+
+
+
+
+/* 424px ~ 390px  --------------------------------------------------- */
+@media (max-width: 424px) and (min-width: 390px) {
+  #header {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  #Home {
+    height: 250px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #Home img {
+    width: 50%;
+    height: 50%;
+  }
+
+
+  #homescroll {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    right: 8px;
+  }
+
+  #homescroll a {
+    margin: 0;
+  }
+
+
+  .grid-section {
+    gap: 8px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .grid-item {
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+
+  #about {
+    display: block;
+  }
+
+  #about1, #about2 {
+    width: 100%;
+    height: auto;
+  }
+
+  #about1 img, #about2 img {
+    width: 40%;
+    height: auto;
+  }
+
+  #about2_1 ul li {
+    width: 20px;
+  }
+
+  #about2_1 ul li a {
+    display: inline-block;
+    padding: 2px 5px;
+    font-size: 0.1rem;
+    border: 1px dashed #333;
+    border-radius: 5px;
+    white-space: nowrap;
+  }
+
+  #about2_1 div {
+    font-size: 0.5rem;
+  }
+
+  #contact 
+  {
+    height: 30%;
+  }
+
+  footer {
+    display: none;
+  }
+}
+
+/* 390px ~ 0 --------------------------------------------------- */
+@media (max-width: 390px) {
+  #header {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  #Home {
+    height: 250px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #Home img {
+    width: 50%;
+    height: 50%;
+  }
+
+  #homescroll {
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    right: 5px;
+  }
+
+  #homescroll a {
+    margin: 0;
+  }
+
+
+  .grid-section {
+    gap: 8px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .grid-item {
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+
+  #about {
+    display: block;
+    /* Flex 대신 블록 레이아웃으로 변경 */
+  }
+
+  #about1, #about2 {
+    width: 100%;
+    /* 각각 100% 너비를 차지 */
+    height: auto;
+    /* 높이는 자동으로 조정 */
+  }
+
+  #about1 img, #about2 img {
+    width: 30%;
+    /* 내부 이미지도 100%로 확장 */
+    height: auto;
+  }
+
+  #about2_1 ul li {
+    display: none;
+  }
+
+  #about2_1 div {
+    font-size: 0.4rem;
+  }
+
+  #contact 
+  {
+    height: 30%;
+  }
+
+
+  footer {
+    display: none;
+  }
+
+
+}
