@@ -15,7 +15,7 @@
 }
 
 body {
-  font-family: "noto", sans-serif;
+  font-family: "noto", sans-serif;  
 }
 
 
@@ -337,6 +337,7 @@ body {
   gap: 20px;
   padding: 30px;
   box-sizing: border-box;
+  margin-top: 100px;
 }
 
 /* Left Section */
@@ -416,18 +417,17 @@ body {
 
 .swiper-wrapper {
   height: 100%;
-  display: flex;
-  align-items: middle;
 }
 
 .swiper-slide {
   display: flex;
-  align-items: center;
+  justify-items: center;
   justify-content: center;
   text-align: center;
 }
 
 .swiper-slide img {
+  text-align: center;
   width: 40%;
   height: auto;
   object-fit: contain;
